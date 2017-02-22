@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+<meta charset="UTF-8"/> 
+<title>Skype English Coaching</title>
+ <meta name="description" content="Nauka języka angielskiego dla dorosłych" />
+ <meta name="keywords" content="english, lekcja, lesson, class, angielski, kurs, korepetycje, skype, język, anglia, nauka, online, egzamin, tłumaczenie, dorosły, dorośli, konwersacje, gramatyka, present, past, perfect, grammar, edukacja, continuos, course, vocabulary, thesaurus" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+ <link rel="stylesheet" href="style.css" type="text/css" />
+ <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+ <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+ 
+</head>
+<body>
+<div>
+<div class="logo">Skype English Coaching <br /> <span style="font-size:20px">Język angielski dla dorosłych</span>
+</div>
+
+<div class="nav">
+	<div class="tile">Strona główna</div>
+	<div class="tile">O mnie</div>
+	<div class="tile">Jak uczę</div>
+	<div class="tile">Cennik</div>
+	<div class="tile">Kontakt</div>
+	<div class="clear:both;"></div>
+
+
+</div>
+<div class="content">
+Hello, welcome to my website!<br /><br/>
+ 
+Witam Cię serdecznie na mojej stronie poświęconej nauce języka angielskiego!<br/></br>
+Skoro tu jesteś to oznacza, że nie muszę Cię przekonywać jak przydatne i ważne jest uczenie się języków obcych, ile daje możliwości, dostępu do informacji, ciekawych doświadczeń towarzyskich i ile drzwi otwiera w życiu.<br /><br />
+Moja oferta skierowana jest głównie do osób dorosłych pragnących nauczyć się praktycznego używania tego pięknego języka w codziennym życiu za granicą, na uczelni czy w pracy.<br />
+Doskonale rozumiem współczesny tryb życia dorosłego; pośpiech, brak czasu, przemęczenie i zabieganie. W trakcie wieloletniego nauczania wypracowałem metody dostosowane do potrzeb dojrzałych studentów i ich możliwości poznawczych i emocjonalnych. Więcej na temat mojej filozofii nauczania znajdziesz w seksji O MNIE.<br /><br />
+Oferuję Ci naukę dostosowaną do Twojego poziomu, Twoich osobistych zdolności językowych i Twojego rozkładu zajęć. Możesz więc uczyć się rano, po południu lub wieczorem.<br /><br />
+Zapraszam Cię do szczegółowego zapoznania się z moimi metodami nauczania online w sekcji JAK UCZĘ oraz do regularnego zaglądania na profil szkoły na Facebooku!<br /><br />
+Hopefully, I'll see you soon!
+</div>
+<div class="socials">
+	<div class="socialdivs">
+		<div class="fb"><i class="icon-facebook-official"></i></div>
+
+		<div style="clear:both"></div>
+	</div>
+</div>
+<div class="footer">
+Skype English Coaching &copy; 2005-2017 <span style="font-size:8px;"><a href="http://www.freepik.com/free-photo/united-kingdom-flag-painted-on-aged-wooden-wall_1018742.htm">Designed by Freepik</a></span>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<script src="jquery-3.1.1.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+   var stickyNavTop = $('.nav').offset().top;
+
+   var stickyNav = function(){
+   var scrollTop = $(window).scrollTop();
+
+   if (scrollTop > stickyNavTop) { 
+      $('.nav').addClass('sticky');
+   } else {
+      $('.nav').removeClass('sticky');
+    }
+   };
+
+   stickyNav();
+
+   $(window).scroll(function() {
+      stickyNav();
+   });
+   });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
